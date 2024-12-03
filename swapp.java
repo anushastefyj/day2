@@ -1,15 +1,15 @@
-
- class swap{
+import java.util.*;
+ class swapp{
  public static void main(String args[]){
 
-        Scanner sc=new Scanner(System.in);
+        Scanner Sc=new Scanner(System.in);
         {
-        int a=sc.nextInt();
-        int b=sc.nextInt();
+        int a=Sc.nextInt();
+        int b=Sc.nextInt();
         a=a+b;
         b=a-b;
         a=a-b;
-        String res=String.format("after swapping lnboy=%dlngirl=%d",a,b);
+        String res=String.format("after swapping boy=%d and girl=%d",a,b);
         System.out.println(res);
     }
 }
